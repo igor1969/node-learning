@@ -16,7 +16,8 @@ function helloFromYellow() {
     console.log(clc.yellow('Hello! I am yellow notifyer!!!'))
     beep()
 }
-setTimeout(helloFromYellow, 2000)
+setTimeout(helloFromYellow, 2000)//Почему-то не могу установить более длительный таймаут - не работает>>>
+
 
 
 
